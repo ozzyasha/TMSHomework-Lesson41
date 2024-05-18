@@ -1,2 +1,6 @@
-# TMSHomework-Lesson41
-TeachMeSkills Homework - Lesson 41
+## TeachMeSkills Homework - Lesson 41
+
+### Домашнее задание:
+
+Сделать на экране единственный круг, который будет перекатываться при наклоне устройства, "упираясь" в края экрана (не safe area).
+
