@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.005, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
     }
     
-    private func moveCirle() {
+    private func moveCircle() {
         motionManager.startAccelerometerUpdates()
         
         let minX = min(max(circle.frame.minX - (motionManager.accelerometerData?.acceleration.x ?? 0 * 30), view.frame.minX), view.frame.maxX - Constants.circleSide)
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     }
     
     @objc func update() {
-        moveCirle()
+        moveCircle()
     }
     
 }
